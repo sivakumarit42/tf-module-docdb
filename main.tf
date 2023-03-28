@@ -75,3 +75,5 @@ resource "aws_ssm_parameter" "docdb_endpoint" {
   type  = "String"
   value = aws_docdb_cluster.main.endpoint
 }
+
+
